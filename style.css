@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.logo {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+.logo:hover{
+    color:red;
+    text-decoration: solid;
+    cursor: pointer;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+
+nav ul li {
+    padding-right: 40px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 1.2em;
+}
+
+a:hover{
+    color: #007bff; /* Ubah warna menjadi biru */
+    text-decoration: underline; /* Tambahkan garis bawah */
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 1em;
+    color: white;
+    background-color: #24A148;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #278b40;
+    color: black;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    min-height: 80vh;
+    background-color: #f0f0f0;
+}
+
+.text {
+    flex: 1;
+    text-align: left;
+    margin-right: 50px;
+}
+
+.text h1 {
+    font-size: 3em;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.text h2 {
+    font-size: 2.5em;
+    color: black;
+    margin-bottom: 10px;
+}
+
+.text p {
+    text-align: justify;
+    font-size: 1.2em;
+    color: gray;
+    margin-bottom: 20px;
+    word-spacing: 1.5px;
+}
+
+.image-container {
+    position: relative;
+    width: 50%;
+}
+
+.image-container img {
+    position: relative;
+    width: 70%;
+    height: auto;
+    margin-left: 100px;
+}

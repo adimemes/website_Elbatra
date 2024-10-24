@@ -1,0 +1,57 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f0f0f0;
+    min-height: 100vh; /* Agar konten selalu berada di tengah layar */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom right, #f0f0f0, #c8c8c8);
+}
+
+.container {
+    width: 350px; /* Sesuaikan lebar sesuai kebutuhan */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+.judul {
+    margin-bottom: 20px;
+}
+
+.calculator {
+    width: 300px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    font-size: 24px;
+    text-align: right;
+    border: none;
+    border-bottom: 1px solid #ccc;
+}
+
+.buttons button {
+    width: 60px;
+    height: 60px;
+    margin: 5px;
+    font-size: 24px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+    transition: background-color 0.2s ease-in-out;
+}
+
+.buttons button:hover {
+    background-color: #ddd;
+}
